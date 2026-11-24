@@ -4,7 +4,6 @@ import json
 import urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from collections import defaultdict
 
 URL = "https://streamxhd.sbs/eventos.json"
 CDMX = ZoneInfo("America/Mexico_City")
@@ -48,7 +47,6 @@ def main():
         return
 
     streams = []
-    by_league = defaultdict(list)
 
     for sport in data.get("sports", []):
         sport_name = sport.get("name", "")
@@ -86,48 +84,19 @@ def main():
                     stream = {
                         "nombre": nombre,
                         "logo": logo,
-                        "url": url,
-                        "liga": league_name,
-                        "deporte": sport_name,
-                        "hora_cdmx": time_str,
-                        "server": server_name,
-                        "home": home,
-                        "away": away,
-                        "dt": dt
+                        "url": url
                     }
                     streams.append(stream)
-                    by_league[league_name].append(stream)
 
-    # Ordenar solo por hora (los más tempranos primero)
-    streams.sort(key=lambda x: x["dt"] if x["dt"] else datetime.max.replace(tzinfo=CDMX))
-
-    # Limpiar el campo dt antes de guardar
-    for s in streams:
-        s.pop("dt", None)
-
-    output = {
-        "total": len(streams),
-        "generado": datetime.now(CDMX).strftime("%Y-%m-%d %H:%M CDMX"),
-        "streams": streams,
-        "por_liga": {liga: items for liga, items in by_league.items()}
-    }
-
-    with open("streams_organizados.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    simple = [{"nombre": s["nombre"], "logo": s["logo"], "url": s["url"]} for s in streams]
     with open("streams_simple.json", "w", encoding="utf-8") as f:
-        json.dump(simple, f, ensure_ascii=False, indent=2)
+        json.dump(streams, f, ensure_ascii=False, indent=2)
 
-    print(f"\nListo! {len(streams)} streams organizados.")
-    print("Archivos: streams_organizados.json y streams_simple.json")
+    print(f"\nListo! {len(streams)} streams.")
+    print("Archivo: streams_simple.json")
 
     print("\n--- Preview (primeros 15) ---")
     for s in streams[:15]:
         print(f"  {s['nombre']}")
-        print(f"    logo: {s['logo'][:60]}..." if s['logo'] else "    logo: (sin logo)")
-        print(f"    url:  {s['url']}")
-        print()
 
 if __name__ == "__main__":
     main()
