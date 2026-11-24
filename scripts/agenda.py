@@ -74,7 +74,7 @@ def main():
                 away = clean_name(event.get("awayTeam"))
                 
                 if home and away:
-                    title = f"{home} vs {away}"
+                    title = f"{home} vs. {away}"
                 else:
                     title = clean_name(event.get("title", "Evento"))
 
