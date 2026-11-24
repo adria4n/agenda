@@ -1,0 +1,352 @@
+[
+  {
+    "nombre": "AFC Champions League Elite / Shabab Al Ahli vs Al Qadisiya 10:00AM",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/0/02/Shabab_Al_Ahli_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney1"
+  },
+  {
+    "nombre": "AFC Champions League Elite / Al Nassr vs Al Sadd 12:15PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney4"
+  },
+  {
+    "nombre": "Brasileirão / Chapecoense vs Palmeiras 3:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=premiere1"
+  },
+  {
+    "nombre": "Brasileirão / Santos vs Grêmio 6:00PM - Sportv 1 BR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=sporttvbr1"
+  },
+  {
+    "nombre": "Brasileirão / Santos vs Grêmio 6:00PM - Premiere 3",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=premiere3"
+  },
+  {
+    "nombre": "Béisbol Colombiano / Toros vs Caimanes 6:00PM",
+    "logo": "https://static.flashscore.com/res/image/data/0048s7il-rF7UuL4F.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn5"
+  },
+  {
+    "nombre": "Champions League / Galatasaray vs Aston Villa 11:45AM - ESPN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn"
+  },
+  {
+    "nombre": "Champions League / Galatasaray vs Aston Villa 11:45AM - FOX Sports 1 AR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=fox1ar"
+  },
+  {
+    "nombre": "Champions League / Galatasaray vs Aston Villa 11:45AM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney2"
+  },
+  {
+    "nombre": "Champions League / Galatasaray vs Aston Villa 11:45AM - TUDN USA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=tudn_usa"
+  },
+  {
+    "nombre": "Champions League / Bodø/Glimt vs LASK Linz 11:45AM - ESPN 2 AR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn2ar"
+  },
+  {
+    "nombre": "Champions League / Bodø/Glimt vs LASK Linz 11:45AM - ESPN 2",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn2"
+  },
+  {
+    "nombre": "Champions League / Bodø/Glimt vs LASK Linz 11:45AM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney3"
+  },
+  {
+    "nombre": "Champions League / Feyenoord vs Porto 2:00PM - ESPN 7",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn7"
+  },
+  {
+    "nombre": "Champions League / Feyenoord vs Porto 2:00PM - FOX Sports 2 AR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=fox2ar"
+  },
+  {
+    "nombre": "Champions League / Feyenoord vs Porto 2:00PM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney5"
+  },
+  {
+    "nombre": "Champions League / Como vs AEK Athens 2:00PM - ESPN 5",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn5"
+  },
+  {
+    "nombre": "Champions League / Como vs AEK Athens 2:00PM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney6"
+  },
+  {
+    "nombre": "Champions League / Arsenal vs Borussia Dortmund 2:00PM - ESPN 2 AR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn2ar"
+  },
+  {
+    "nombre": "Champions League / Arsenal vs Borussia Dortmund 2:00PM - ESPN 3",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn3"
+  },
+  {
+    "nombre": "Champions League / Arsenal vs Borussia Dortmund 2:00PM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney7"
+  },
+  {
+    "nombre": "Champions League / Arsenal vs Borussia Dortmund 2:00PM - ViX",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=vix1"
+  },
+  {
+    "nombre": "Champions League / Manchester City vs Napoli 2:00PM - ESPN AR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espnar"
+  },
+  {
+    "nombre": "Champions League / Manchester City vs Napoli 2:00PM - ESPN 2",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn2"
+  },
+  {
+    "nombre": "Champions League / Manchester City vs Napoli 2:00PM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney8"
+  },
+  {
+    "nombre": "Champions League / RB Leipzig vs Lens 2:00PM - ESPN 6",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn6"
+  },
+  {
+    "nombre": "Champions League / RB Leipzig vs Lens 2:00PM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney9"
+  },
+  {
+    "nombre": "Champions League / Real Madrid vs PSV 2:00PM - ESPN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn"
+  },
+  {
+    "nombre": "Champions League / Real Madrid vs PSV 2:00PM - FOX Sports 1 AR",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=fox1ar"
+  },
+  {
+    "nombre": "Champions League / Real Madrid vs PSV 2:00PM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney10"
+  },
+  {
+    "nombre": "Champions League / Real Madrid vs PSV 2:00PM - TUDN USA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=tudn_usa"
+  },
+  {
+    "nombre": "Champions League / Slovan Bratislava vs Real Betis 2:00PM - ESPN 4",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn4"
+  },
+  {
+    "nombre": "Champions League / Slovan Bratislava vs Real Betis 2:00PM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney11"
+  },
+  {
+    "nombre": "Championship / Wolverhampton vs Derby County 2:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney12"
+  },
+  {
+    "nombre": "Copa Mundial Sub-17 / Venezuela vs Rumanía 6:30AM",
+    "logo": "https://flagcdn.com/w320/ve.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=dsports"
+  },
+  {
+    "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - TUDN MX",
+    "logo": "https://flagcdn.com/w320/mx.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=tudnmx"
+  },
+  {
+    "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - Canal 9 MX",
+    "logo": "https://flagcdn.com/w320/mx.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=canal9mx"
+  },
+  {
+    "nombre": "Copa Mundial Sub-17 / República Dominicana vs Chile 8:30AM",
+    "logo": "https://flagcdn.com/w320/do.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus"
+  },
+  {
+    "nombre": "Copa Mundial Sub-17 / Brasil vs Tanzania 9:00AM",
+    "logo": "https://flagcdn.com/w320/br.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=sporttvbr2"
+  },
+  {
+    "nombre": "Copa Mundial Sub-17 / Honduras vs Colombia 9:30AM",
+    "logo": "https://flagcdn.com/w320/hn.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=dsports"
+  },
+  {
+    "nombre": "Copa de Rusia / Zenit St. Petersburg vs Krylia Sovetov 10:30AM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2533.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus"
+  },
+  {
+    "nombre": "Liga Colombia / Millonarios vs Atlético Bucaramanga 5:20PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=winplus"
+  },
+  {
+    "nombre": "Liga Colombia / América de Cali vs Deportivo Cali 7:30PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=winplus"
+  },
+  {
+    "nombre": "Liga Ecuador / Barcelona SC vs Independiente del Valle 6:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=zapping_ec"
+  },
+  {
+    "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Apple TV",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=appletv1"
+  },
+  {
+    "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Fox Deportes USA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=fox_deportes_usa"
+  },
+  {
+    "nombre": "MLS / San Jose Earthquakes vs Houston Dynamo 9:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=appletv1"
+  },
+  {
+    "nombre": "NBA / Philadelphia 76ers vs Portland Trail Blazers 6:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba1"
+  },
+  {
+    "nombre": "NBA / Charlotte Hornets vs Memphis Grizzlies 6:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba2"
+  },
+  {
+    "nombre": "NBA / Orlando Magic vs Detroit Pistons 6:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba1"
+  },
+  {
+    "nombre": "NBA / Indiana Pacers vs Oklahoma City Thunder 6:30PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba3"
+  },
+  {
+    "nombre": "NBA / Toronto Raptors vs Milwaukee Bucks 6:30PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba4"
+  },
+  {
+    "nombre": "NBA / Minnesota Timberwolves vs Brooklyn Nets 6:30PM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney7"
+  },
+  {
+    "nombre": "NBA / Minnesota Timberwolves vs Brooklyn Nets 6:30PM - NBA League Pass 5",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba5"
+  },
+  {
+    "nombre": "NBA / Chicago Bulls vs Cleveland Cavaliers 7:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba6"
+  },
+  {
+    "nombre": "NBA / New Orleans Pelicans vs Phoenix Suns 7:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba7"
+  },
+  {
+    "nombre": "NBA / Washington Wizards vs Boston Celtics 7:00PM - Amazon 1",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=amazon1"
+  },
+  {
+    "nombre": "NBA / Washington Wizards vs Boston Celtics 7:00PM - TNT Sports",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=tntsports"
+  },
+  {
+    "nombre": "NBA / Washington Wizards vs Boston Celtics 7:00PM - NBA League Pass 2",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba2"
+  },
+  {
+    "nombre": "NBA / Houston Rockets vs Los Angeles Clippers 7:30PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba8"
+  },
+  {
+    "nombre": "NBA / Los Angeles Lakers vs Utah Jazz 9:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba9"
+  },
+  {
+    "nombre": "NBA / Sacramento Kings vs San Antonio Spurs 9:00PM - Disney +",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=disney8"
+  },
+  {
+    "nombre": "NBA / Sacramento Kings vs San Antonio Spurs 9:00PM - NBA League Pass 10",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba10"
+  },
+  {
+    "nombre": "NBA / Denver Nuggets vs Dallas Mavericks 9:00PM - Amazon 2",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=amazon2"
+  },
+  {
+    "nombre": "NBA / Denver Nuggets vs Dallas Mavericks 9:00PM - TNT Sports",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=tntsports"
+  },
+  {
+    "nombre": "NBA / Denver Nuggets vs Dallas Mavericks 9:00PM - NBA League Pass 3",
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=nba3"
+  },
+  {
+    "nombre": "NFL / Washington Commanders vs Cincinnati Bengals 7:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn2"
+  },
+  {
+    "nombre": "NHL / Edmonton Oilers vs Vegas Golden Knights 7:00PM",
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/edm.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=espn3"
+  },
+  {
+    "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=winsports"
+  },
+  {
+    "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports +",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
+    "url": "https://streamxhd.sbs/live1.php?stream=winplus"
+  }
+]
