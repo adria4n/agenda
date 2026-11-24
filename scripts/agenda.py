@@ -2,12 +2,38 @@
 
 import json
 import urllib.request
+import re
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-URL = "https://streamxhd.sbs/eventos.json"
 CDMX = ZoneInfo("America/Mexico_City")
 LIMA = ZoneInfo("America/Lima")
+PATH = "/eventos.json"
+VERI = "https://streamveri.xyz"
+
+def obtener_dominios():
+    with urllib.request.urlopen(VERI, timeout=15) as r:
+        html = r.read().decode("utf-8", errors="ignore")
+    dominios = re.findall(r'streamxhd\.[a-z0-9]+', html, re.I)
+    bases = []
+    for d in dict.fromkeys(dominios):
+        bases.append(f"https://{d}")
+    if not bases:
+        raise Exception("No se encontraron dominios en streamveri.xyz")
+    return bases
+
+def obtener_json():
+    for base in obtener_dominios():
+        url = base + PATH
+        try:
+            print(f"Intentando {url}")
+            with urllib.request.urlopen(url, timeout=15) as response:
+                if response.status == 200:
+                    print(f"OK: {url}")
+                    return json.loads(response.read().decode())
+        except Exception as e:
+            print(f"Fallo {url}: {e}")
+    raise Exception("Todos los dominios fallaron")
 
 def parse_time(time_str, timezone_str="America/Lima"):
     try:
@@ -38,13 +64,7 @@ def get_logo(event):
     return ""
 
 def main():
-    print("Descargando eventos...")
-    try:
-        with urllib.request.urlopen(URL, timeout=30) as response:
-            data = json.loads(response.read().decode())
-    except Exception as e:
-        print(f"Error descargando: {e}")
-        return
+    data = obtener_json()
 
     hoy = datetime.now(CDMX).date()
     streams = []
@@ -110,7 +130,7 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\nListo! {len(streams)} streams de hoy.")
-    print("Archivo: streams_simple.json")
+    print("Archivo: agenda.json")
 
     print("\n--- Preview ---")
     for s in streams[:15]:
