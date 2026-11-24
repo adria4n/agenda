@@ -46,19 +46,21 @@ def main():
         print(f"Error descargando: {e}")
         return
 
+    hoy = datetime.now(CDMX).date()
     streams = []
 
     for sport in data.get("sports", []):
-        sport_name = sport.get("name", "")
         for league in sport.get("leagues", []):
             league_name = league.get("name", "Sin liga")
             for event in league.get("events", []):
+                dt = parse_time(event.get("time", ""), event.get("timezone", "America/Lima"))
+                if not dt or dt.date() != hoy:
+                    continue
+
                 home = clean_name(event.get("homeTeam") or event.get("title", "").split(" vs ")[0])
                 away = clean_name(event.get("awayTeam") or "")
                 title = f"{home} vs {away}" if away else event.get("title", "Evento")
-                
-                dt = parse_time(event.get("time", ""), event.get("timezone", "America/Lima"))
-                time_str = format_time(dt) if dt else ""
+                time_str = format_time(dt)
                 
                 logo = get_logo(event, league)
                 servers = [s for s in event.get("servers", []) if s.get("active", True)]
@@ -91,10 +93,10 @@ def main():
     with open("streams_simple.json", "w", encoding="utf-8") as f:
         json.dump(streams, f, ensure_ascii=False, indent=2)
 
-    print(f"\nListo! {len(streams)} streams.")
+    print(f"\nListo! {len(streams)} streams de hoy.")
     print("Archivo: streams_simple.json")
 
-    print("\n--- Preview (primeros 15) ---")
+    print("\n--- Preview ---")
     for s in streams[:15]:
         print(f"  {s['nombre']}")
 
