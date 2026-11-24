@@ -81,7 +81,7 @@ def main():
                 away = clean_name(event.get("awayTeam"))
                 
                 if home and away:
-                    title = f"{home} vs. {away}"
+                    title = f"{home} vs {away}"
                 else:
                     title = clean_name(event.get("title", "Evento"))
 
@@ -108,14 +108,20 @@ def main():
                     
                     nombre = f"{base_nombre} - {server_name}"
                     
-                    streams.append({
+                    item = {
                         "nombre": nombre,
-                        "logo": logo,
-                        "homelogo": homelogo,
-                        "awaylogo": awaylogo,
                         "url": url,
                         "_dt": dt
-                    })
+                    }
+                    
+                    if logo:
+                        item["logo"] = logo
+                    if homelogo and homelogo.startswith("http"):
+                        item["homelogo"] = homelogo
+                    if awaylogo and awaylogo.startswith("http"):
+                        item["awaylogo"] = awaylogo
+                    
+                    streams.append(item)
 
     streams.sort(key=lambda x: x["_dt"])
 
