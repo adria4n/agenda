@@ -63,8 +63,8 @@ def main():
                 time_str = format_time(dt)
                 
                 logo = get_logo(event, league)
-                equipo1 = event.get("homeLogo", "") or ""
-                equipo2 = event.get("awayLogo", "") or ""
+                homelogo = event.get("homeLogo", "") or ""
+                awaylogo = event.get("awayLogo", "") or ""
                 
                 servers = [s for s in event.get("servers", []) if s.get("active", True)]
                 
@@ -89,8 +89,8 @@ def main():
                     streams.append({
                         "nombre": nombre,
                         "logo": logo,
-                        "equipo1": equipo1,
-                        "equipo2": equipo2,
+                        "homelogo": homelogo,
+                        "awaylogo": awaylogo,
                         "url": url,
                         "_dt": dt
                     })
