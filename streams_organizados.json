@@ -1,40 +1,7 @@
 {
   "total": 70,
-  "generado": "2026-11-24 06:44 CDMX",
+  "generado": "2026-11-24 06:48 CDMX",
   "streams": [
-    {
-      "nombre": "AFC Champions League Elite / Shabab Al Ahli vs Al Qadisiya 10:00AM",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/0/02/Shabab_Al_Ahli_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-      "url": "https://streamxhd.sbs/live1.php?stream=disney1",
-      "liga": "AFC Champions League Elite",
-      "deporte": "Football",
-      "hora_cdmx": "10:00AM",
-      "server": "Disney +",
-      "home": "Shabab Al Ahli",
-      "away": "Al Qadisiya"
-    },
-    {
-      "nombre": "AFC Champions League Elite / Al Nassr vs Al Sadd 12:15PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=disney4",
-      "liga": "AFC Champions League Elite",
-      "deporte": "Football",
-      "hora_cdmx": "12:15PM",
-      "server": "Disney +",
-      "home": "Al Nassr",
-      "away": "Al Sadd"
-    },
-    {
-      "nombre": "Brasileirão / Chapecoense vs Palmeiras 3:00PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=premiere1",
-      "liga": "Brasileirão",
-      "deporte": "Football",
-      "hora_cdmx": "3:00PM",
-      "server": "Premiere 1",
-      "home": "Chapecoense",
-      "away": "Palmeiras"
-    },
     {
       "nombre": "Brasileirão / Santos vs Grêmio 6:00PM - Sportv 1 BR",
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
@@ -58,15 +25,279 @@
       "away": "Grêmio"
     },
     {
-      "nombre": "Béisbol Colombiano / Toros vs Caimanes 6:00PM",
-      "logo": "https://static.flashscore.com/res/image/data/0048s7il-rF7UuL4F.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=espn5",
-      "liga": "Béisbol Colombiano",
-      "deporte": "Baseball",
+      "nombre": "NBA / Philadelphia 76ers vs Portland Trail Blazers 6:00PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba1",
+      "liga": "NBA",
+      "deporte": "Basketball",
       "hora_cdmx": "6:00PM",
-      "server": "ESPN 5",
-      "home": "Toros",
-      "away": "Caimanes"
+      "server": "NBA League Pass 1",
+      "home": "Philadelphia 76ers",
+      "away": "Portland Trail Blazers"
+    },
+    {
+      "nombre": "NBA / Charlotte Hornets vs Memphis Grizzlies 6:00PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba2",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "6:00PM",
+      "server": "NBA League Pass 2",
+      "home": "Charlotte Hornets",
+      "away": "Memphis Grizzlies"
+    },
+    {
+      "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=winsports",
+      "liga": "Primera B",
+      "deporte": "Football",
+      "hora_cdmx": "6:30PM",
+      "server": "Win Sports",
+      "home": "Boca Juniors de Cali",
+      "away": "Deportes Quindío"
+    },
+    {
+      "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports +",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=winplus",
+      "liga": "Primera B",
+      "deporte": "Football",
+      "hora_cdmx": "6:30PM",
+      "server": "Win Sports +",
+      "home": "Boca Juniors de Cali",
+      "away": "Deportes Quindío"
+    },
+    {
+      "nombre": "NBA / Indiana Pacers vs Oklahoma City Thunder 6:30PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba3",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "6:30PM",
+      "server": "NBA League Pass 3",
+      "home": "Indiana Pacers",
+      "away": "Oklahoma City Thunder"
+    },
+    {
+      "nombre": "NBA / Toronto Raptors vs Milwaukee Bucks 6:30PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba4",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "6:30PM",
+      "server": "NBA League Pass 4",
+      "home": "Toronto Raptors",
+      "away": "Milwaukee Bucks"
+    },
+    {
+      "nombre": "NBA / Minnesota Timberwolves vs Brooklyn Nets 6:30PM - Disney +",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=disney7",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "6:30PM",
+      "server": "Disney +",
+      "home": "Minnesota Timberwolves",
+      "away": "Brooklyn Nets"
+    },
+    {
+      "nombre": "NBA / Minnesota Timberwolves vs Brooklyn Nets 6:30PM - NBA League Pass 5",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba5",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "6:30PM",
+      "server": "NBA League Pass 5",
+      "home": "Minnesota Timberwolves",
+      "away": "Brooklyn Nets"
+    },
+    {
+      "nombre": "NFL / Washington Commanders vs Cincinnati Bengals 7:00PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=espn2",
+      "liga": "NFL",
+      "deporte": "American Football",
+      "hora_cdmx": "7:00PM",
+      "server": "ESPN 2",
+      "home": "Washington Commanders",
+      "away": "Cincinnati Bengals"
+    },
+    {
+      "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Apple TV",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=appletv1",
+      "liga": "MLS",
+      "deporte": "Football",
+      "hora_cdmx": "7:00PM",
+      "server": "Apple TV",
+      "home": "St. Louis City",
+      "away": "Los Angeles FC"
+    },
+    {
+      "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Fox Deportes USA",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=fox_deportes_usa",
+      "liga": "MLS",
+      "deporte": "Football",
+      "hora_cdmx": "7:00PM",
+      "server": "Fox Deportes USA",
+      "home": "St. Louis City",
+      "away": "Los Angeles FC"
+    },
+    {
+      "nombre": "NBA / Chicago Bulls vs Cleveland Cavaliers 7:00PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba6",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "7:00PM",
+      "server": "NBA League Pass 6",
+      "home": "Chicago Bulls",
+      "away": "Cleveland Cavaliers"
+    },
+    {
+      "nombre": "NBA / New Orleans Pelicans vs Phoenix Suns 7:00PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba7",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "7:00PM",
+      "server": "NBA League Pass 7",
+      "home": "New Orleans Pelicans",
+      "away": "Phoenix Suns"
+    },
+    {
+      "nombre": "NBA / Houston Rockets vs Los Angeles Clippers 7:30PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba8",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "7:30PM",
+      "server": "NBA League Pass 8",
+      "home": "Houston Rockets",
+      "away": "Los Angeles Clippers"
+    },
+    {
+      "nombre": "NBA / Los Angeles Lakers vs Utah Jazz 9:00PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba9",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "9:00PM",
+      "server": "NBA League Pass 9",
+      "home": "Los Angeles Lakers",
+      "away": "Utah Jazz"
+    },
+    {
+      "nombre": "NBA / Sacramento Kings vs San Antonio Spurs 9:00PM - Disney +",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=disney8",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "9:00PM",
+      "server": "Disney +",
+      "home": "Sacramento Kings",
+      "away": "San Antonio Spurs"
+    },
+    {
+      "nombre": "NBA / Sacramento Kings vs San Antonio Spurs 9:00PM - NBA League Pass 10",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=nba10",
+      "liga": "NBA",
+      "deporte": "Basketball",
+      "hora_cdmx": "9:00PM",
+      "server": "NBA League Pass 10",
+      "home": "Sacramento Kings",
+      "away": "San Antonio Spurs"
+    },
+    {
+      "nombre": "Copa Mundial Sub-17 / Venezuela vs Rumanía 6:30AM",
+      "logo": "https://flagcdn.com/w320/ve.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=dsports",
+      "liga": "Copa Mundial Sub-17",
+      "deporte": "Football",
+      "hora_cdmx": "6:30AM",
+      "server": "DSports",
+      "home": "Venezuela",
+      "away": "Rumanía"
+    },
+    {
+      "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - TUDN MX",
+      "logo": "https://flagcdn.com/w320/mx.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=tudnmx",
+      "liga": "Copa Mundial Sub-17",
+      "deporte": "Football",
+      "hora_cdmx": "7:30AM",
+      "server": "TUDN MX",
+      "home": "México",
+      "away": "Camerún"
+    },
+    {
+      "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - Canal 9 MX",
+      "logo": "https://flagcdn.com/w320/mx.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=canal9mx",
+      "liga": "Copa Mundial Sub-17",
+      "deporte": "Football",
+      "hora_cdmx": "7:30AM",
+      "server": "Canal 9 MX",
+      "home": "México",
+      "away": "Camerún"
+    },
+    {
+      "nombre": "Copa Mundial Sub-17 / República Dominicana vs Chile 8:30AM",
+      "logo": "https://flagcdn.com/w320/do.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus",
+      "liga": "Copa Mundial Sub-17",
+      "deporte": "Football",
+      "hora_cdmx": "8:30AM",
+      "server": "DSports Plus",
+      "home": "República Dominicana",
+      "away": "Chile"
+    },
+    {
+      "nombre": "Copa Mundial Sub-17 / Brasil vs Tanzania 9:00AM",
+      "logo": "https://flagcdn.com/w320/br.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=sporttvbr2",
+      "liga": "Copa Mundial Sub-17",
+      "deporte": "Football",
+      "hora_cdmx": "9:00AM",
+      "server": "Sportv 2 BR",
+      "home": "Brasil",
+      "away": "Tanzania"
+    },
+    {
+      "nombre": "Copa Mundial Sub-17 / Honduras vs Colombia 9:30AM",
+      "logo": "https://flagcdn.com/w320/hn.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=dsports",
+      "liga": "Copa Mundial Sub-17",
+      "deporte": "Football",
+      "hora_cdmx": "9:30AM",
+      "server": "DSports",
+      "home": "Honduras",
+      "away": "Colombia"
+    },
+    {
+      "nombre": "AFC Champions League Elite / Shabab Al Ahli vs Al Qadisiya 10:00AM",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/02/Shabab_Al_Ahli_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "url": "https://streamxhd.sbs/live1.php?stream=disney1",
+      "liga": "AFC Champions League Elite",
+      "deporte": "Football",
+      "hora_cdmx": "10:00AM",
+      "server": "Disney +",
+      "home": "Shabab Al Ahli",
+      "away": "Al Qadisiya"
+    },
+    {
+      "nombre": "Copa de Rusia / Zenit St. Petersburg vs Krylia Sovetov 10:30AM",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2533.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus",
+      "liga": "Copa de Rusia",
+      "deporte": "Football",
+      "hora_cdmx": "10:30AM",
+      "server": "DSports Plus",
+      "home": "Zenit St. Petersburg",
+      "away": "Krylia Sovetov"
     },
     {
       "nombre": "Champions League / Galatasaray vs Aston Villa 11:45AM - ESPN",
@@ -144,6 +375,17 @@
       "server": "Disney +",
       "home": "Bodø/Glimt",
       "away": "LASK Linz"
+    },
+    {
+      "nombre": "AFC Champions League Elite / Al Nassr vs Al Sadd 12:15PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=disney4",
+      "liga": "AFC Champions League Elite",
+      "deporte": "Football",
+      "hora_cdmx": "12:15PM",
+      "server": "Disney +",
+      "home": "Al Nassr",
+      "away": "Al Sadd"
     },
     {
       "nombre": "Champions League / Feyenoord vs Porto 2:00PM - ESPN 7",
@@ -377,81 +619,15 @@
       "away": "Derby County"
     },
     {
-      "nombre": "Copa Mundial Sub-17 / Venezuela vs Rumanía 6:30AM",
-      "logo": "https://flagcdn.com/w320/ve.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=dsports",
-      "liga": "Copa Mundial Sub-17",
+      "nombre": "Brasileirão / Chapecoense vs Palmeiras 3:00PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=premiere1",
+      "liga": "Brasileirão",
       "deporte": "Football",
-      "hora_cdmx": "6:30AM",
-      "server": "DSports",
-      "home": "Venezuela",
-      "away": "Rumanía"
-    },
-    {
-      "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - TUDN MX",
-      "logo": "https://flagcdn.com/w320/mx.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=tudnmx",
-      "liga": "Copa Mundial Sub-17",
-      "deporte": "Football",
-      "hora_cdmx": "7:30AM",
-      "server": "TUDN MX",
-      "home": "México",
-      "away": "Camerún"
-    },
-    {
-      "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - Canal 9 MX",
-      "logo": "https://flagcdn.com/w320/mx.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=canal9mx",
-      "liga": "Copa Mundial Sub-17",
-      "deporte": "Football",
-      "hora_cdmx": "7:30AM",
-      "server": "Canal 9 MX",
-      "home": "México",
-      "away": "Camerún"
-    },
-    {
-      "nombre": "Copa Mundial Sub-17 / República Dominicana vs Chile 8:30AM",
-      "logo": "https://flagcdn.com/w320/do.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus",
-      "liga": "Copa Mundial Sub-17",
-      "deporte": "Football",
-      "hora_cdmx": "8:30AM",
-      "server": "DSports Plus",
-      "home": "República Dominicana",
-      "away": "Chile"
-    },
-    {
-      "nombre": "Copa Mundial Sub-17 / Brasil vs Tanzania 9:00AM",
-      "logo": "https://flagcdn.com/w320/br.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=sporttvbr2",
-      "liga": "Copa Mundial Sub-17",
-      "deporte": "Football",
-      "hora_cdmx": "9:00AM",
-      "server": "Sportv 2 BR",
-      "home": "Brasil",
-      "away": "Tanzania"
-    },
-    {
-      "nombre": "Copa Mundial Sub-17 / Honduras vs Colombia 9:30AM",
-      "logo": "https://flagcdn.com/w320/hn.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=dsports",
-      "liga": "Copa Mundial Sub-17",
-      "deporte": "Football",
-      "hora_cdmx": "9:30AM",
-      "server": "DSports",
-      "home": "Honduras",
-      "away": "Colombia"
-    },
-    {
-      "nombre": "Copa de Rusia / Zenit St. Petersburg vs Krylia Sovetov 10:30AM",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2533.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus",
-      "liga": "Copa de Rusia",
-      "deporte": "Football",
-      "hora_cdmx": "10:30AM",
-      "server": "DSports Plus",
-      "home": "Zenit St. Petersburg",
-      "away": "Krylia Sovetov"
+      "hora_cdmx": "3:00PM",
+      "server": "Premiere 1",
+      "home": "Chapecoense",
+      "away": "Palmeiras"
     },
     {
       "nombre": "Liga Colombia / Millonarios vs Atlético Bucaramanga 5:20PM",
@@ -465,15 +641,15 @@
       "away": "Atlético Bucaramanga"
     },
     {
-      "nombre": "Liga Colombia / América de Cali vs Deportivo Cali 7:30PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=winplus",
-      "liga": "Liga Colombia",
-      "deporte": "Football",
-      "hora_cdmx": "7:30PM",
-      "server": "Win Sports +",
-      "home": "América de Cali",
-      "away": "Deportivo Cali"
+      "nombre": "Béisbol Colombiano / Toros vs Caimanes 6:00PM",
+      "logo": "https://static.flashscore.com/res/image/data/0048s7il-rF7UuL4F.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=espn5",
+      "liga": "Béisbol Colombiano",
+      "deporte": "Baseball",
+      "hora_cdmx": "6:00PM",
+      "server": "ESPN 5",
+      "home": "Toros",
+      "away": "Caimanes"
     },
     {
       "nombre": "Liga Ecuador / Barcelona SC vs Independiente del Valle 6:00PM",
@@ -487,61 +663,6 @@
       "away": "Independiente del Valle"
     },
     {
-      "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Apple TV",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=appletv1",
-      "liga": "MLS",
-      "deporte": "Football",
-      "hora_cdmx": "7:00PM",
-      "server": "Apple TV",
-      "home": "St. Louis City",
-      "away": "Los Angeles FC"
-    },
-    {
-      "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Fox Deportes USA",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=fox_deportes_usa",
-      "liga": "MLS",
-      "deporte": "Football",
-      "hora_cdmx": "7:00PM",
-      "server": "Fox Deportes USA",
-      "home": "St. Louis City",
-      "away": "Los Angeles FC"
-    },
-    {
-      "nombre": "MLS / San Jose Earthquakes vs Houston Dynamo 9:00PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=appletv1",
-      "liga": "MLS",
-      "deporte": "Football",
-      "hora_cdmx": "9:00PM",
-      "server": "Apple TV",
-      "home": "San Jose Earthquakes",
-      "away": "Houston Dynamo"
-    },
-    {
-      "nombre": "NBA / Philadelphia 76ers vs Portland Trail Blazers 6:00PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba1",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "6:00PM",
-      "server": "NBA League Pass 1",
-      "home": "Philadelphia 76ers",
-      "away": "Portland Trail Blazers"
-    },
-    {
-      "nombre": "NBA / Charlotte Hornets vs Memphis Grizzlies 6:00PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba2",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "6:00PM",
-      "server": "NBA League Pass 2",
-      "home": "Charlotte Hornets",
-      "away": "Memphis Grizzlies"
-    },
-    {
       "nombre": "NBA / Orlando Magic vs Detroit Pistons 6:00PM",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
       "url": "https://streamxhd.sbs/live1.php?stream=nba1",
@@ -551,72 +672,6 @@
       "server": "NBA League Pass 1",
       "home": "Orlando Magic",
       "away": "Detroit Pistons"
-    },
-    {
-      "nombre": "NBA / Indiana Pacers vs Oklahoma City Thunder 6:30PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba3",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "6:30PM",
-      "server": "NBA League Pass 3",
-      "home": "Indiana Pacers",
-      "away": "Oklahoma City Thunder"
-    },
-    {
-      "nombre": "NBA / Toronto Raptors vs Milwaukee Bucks 6:30PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba4",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "6:30PM",
-      "server": "NBA League Pass 4",
-      "home": "Toronto Raptors",
-      "away": "Milwaukee Bucks"
-    },
-    {
-      "nombre": "NBA / Minnesota Timberwolves vs Brooklyn Nets 6:30PM - Disney +",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=disney7",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "6:30PM",
-      "server": "Disney +",
-      "home": "Minnesota Timberwolves",
-      "away": "Brooklyn Nets"
-    },
-    {
-      "nombre": "NBA / Minnesota Timberwolves vs Brooklyn Nets 6:30PM - NBA League Pass 5",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba5",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "6:30PM",
-      "server": "NBA League Pass 5",
-      "home": "Minnesota Timberwolves",
-      "away": "Brooklyn Nets"
-    },
-    {
-      "nombre": "NBA / Chicago Bulls vs Cleveland Cavaliers 7:00PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba6",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "7:00PM",
-      "server": "NBA League Pass 6",
-      "home": "Chicago Bulls",
-      "away": "Cleveland Cavaliers"
-    },
-    {
-      "nombre": "NBA / New Orleans Pelicans vs Phoenix Suns 7:00PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba7",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "7:00PM",
-      "server": "NBA League Pass 7",
-      "home": "New Orleans Pelicans",
-      "away": "Phoenix Suns"
     },
     {
       "nombre": "NBA / Washington Wizards vs Boston Celtics 7:00PM - Amazon 1",
@@ -652,48 +707,37 @@
       "away": "Boston Celtics"
     },
     {
-      "nombre": "NBA / Houston Rockets vs Los Angeles Clippers 7:30PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba8",
-      "liga": "NBA",
-      "deporte": "Basketball",
+      "nombre": "NHL / Edmonton Oilers vs Vegas Golden Knights 7:00PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/edm.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=espn3",
+      "liga": "NHL",
+      "deporte": "Hockey",
+      "hora_cdmx": "7:00PM",
+      "server": "ESPN 3",
+      "home": "Edmonton Oilers",
+      "away": "Vegas Golden Knights"
+    },
+    {
+      "nombre": "Liga Colombia / América de Cali vs Deportivo Cali 7:30PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=winplus",
+      "liga": "Liga Colombia",
+      "deporte": "Football",
       "hora_cdmx": "7:30PM",
-      "server": "NBA League Pass 8",
-      "home": "Houston Rockets",
-      "away": "Los Angeles Clippers"
+      "server": "Win Sports +",
+      "home": "América de Cali",
+      "away": "Deportivo Cali"
     },
     {
-      "nombre": "NBA / Los Angeles Lakers vs Utah Jazz 9:00PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba9",
-      "liga": "NBA",
-      "deporte": "Basketball",
+      "nombre": "MLS / San Jose Earthquakes vs Houston Dynamo 9:00PM",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+      "url": "https://streamxhd.sbs/live1.php?stream=appletv1",
+      "liga": "MLS",
+      "deporte": "Football",
       "hora_cdmx": "9:00PM",
-      "server": "NBA League Pass 9",
-      "home": "Los Angeles Lakers",
-      "away": "Utah Jazz"
-    },
-    {
-      "nombre": "NBA / Sacramento Kings vs San Antonio Spurs 9:00PM - Disney +",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=disney8",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "9:00PM",
-      "server": "Disney +",
-      "home": "Sacramento Kings",
-      "away": "San Antonio Spurs"
-    },
-    {
-      "nombre": "NBA / Sacramento Kings vs San Antonio Spurs 9:00PM - NBA League Pass 10",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=nba10",
-      "liga": "NBA",
-      "deporte": "Basketball",
-      "hora_cdmx": "9:00PM",
-      "server": "NBA League Pass 10",
-      "home": "Sacramento Kings",
-      "away": "San Antonio Spurs"
+      "server": "Apple TV",
+      "home": "San Jose Earthquakes",
+      "away": "Houston Dynamo"
     },
     {
       "nombre": "NBA / Denver Nuggets vs Dallas Mavericks 9:00PM - Amazon 2",
@@ -727,53 +771,162 @@
       "server": "NBA League Pass 3",
       "home": "Denver Nuggets",
       "away": "Dallas Mavericks"
-    },
-    {
-      "nombre": "NFL / Washington Commanders vs Cincinnati Bengals 7:00PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=espn2",
-      "liga": "NFL",
-      "deporte": "American Football",
-      "hora_cdmx": "7:00PM",
-      "server": "ESPN 2",
-      "home": "Washington Commanders",
-      "away": "Cincinnati Bengals"
-    },
-    {
-      "nombre": "NHL / Edmonton Oilers vs Vegas Golden Knights 7:00PM",
-      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/edm.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=espn3",
-      "liga": "NHL",
-      "deporte": "Hockey",
-      "hora_cdmx": "7:00PM",
-      "server": "ESPN 3",
-      "home": "Edmonton Oilers",
-      "away": "Vegas Golden Knights"
-    },
-    {
-      "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=winsports",
-      "liga": "Primera B",
-      "deporte": "Football",
-      "hora_cdmx": "6:30PM",
-      "server": "Win Sports",
-      "home": "Boca Juniors de Cali",
-      "away": "Deportes Quindío"
-    },
-    {
-      "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports +",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
-      "url": "https://streamxhd.sbs/live1.php?stream=winplus",
-      "liga": "Primera B",
-      "deporte": "Football",
-      "hora_cdmx": "6:30PM",
-      "server": "Win Sports +",
-      "home": "Boca Juniors de Cali",
-      "away": "Deportes Quindío"
     }
   ],
   "por_liga": {
+    "NFL": [
+      {
+        "nombre": "NFL / Washington Commanders vs Cincinnati Bengals 7:00PM",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=espn2",
+        "liga": "NFL",
+        "deporte": "American Football",
+        "hora_cdmx": "7:00PM",
+        "server": "ESPN 2",
+        "home": "Washington Commanders",
+        "away": "Cincinnati Bengals"
+      }
+    ],
+    "Béisbol Colombiano": [
+      {
+        "nombre": "Béisbol Colombiano / Toros vs Caimanes 6:00PM",
+        "logo": "https://static.flashscore.com/res/image/data/0048s7il-rF7UuL4F.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=espn5",
+        "liga": "Béisbol Colombiano",
+        "deporte": "Baseball",
+        "hora_cdmx": "6:00PM",
+        "server": "ESPN 5",
+        "home": "Toros",
+        "away": "Caimanes"
+      }
+    ],
+    "MLS": [
+      {
+        "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Apple TV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=appletv1",
+        "liga": "MLS",
+        "deporte": "Football",
+        "hora_cdmx": "7:00PM",
+        "server": "Apple TV",
+        "home": "St. Louis City",
+        "away": "Los Angeles FC"
+      },
+      {
+        "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Fox Deportes USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=fox_deportes_usa",
+        "liga": "MLS",
+        "deporte": "Football",
+        "hora_cdmx": "7:00PM",
+        "server": "Fox Deportes USA",
+        "home": "St. Louis City",
+        "away": "Los Angeles FC"
+      },
+      {
+        "nombre": "MLS / San Jose Earthquakes vs Houston Dynamo 9:00PM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=appletv1",
+        "liga": "MLS",
+        "deporte": "Football",
+        "hora_cdmx": "9:00PM",
+        "server": "Apple TV",
+        "home": "San Jose Earthquakes",
+        "away": "Houston Dynamo"
+      }
+    ],
+    "Primera B": [
+      {
+        "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=winsports",
+        "liga": "Primera B",
+        "deporte": "Football",
+        "hora_cdmx": "6:30PM",
+        "server": "Win Sports",
+        "home": "Boca Juniors de Cali",
+        "away": "Deportes Quindío"
+      },
+      {
+        "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports +",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=winplus",
+        "liga": "Primera B",
+        "deporte": "Football",
+        "hora_cdmx": "6:30PM",
+        "server": "Win Sports +",
+        "home": "Boca Juniors de Cali",
+        "away": "Deportes Quindío"
+      }
+    ],
+    "Copa Mundial Sub-17": [
+      {
+        "nombre": "Copa Mundial Sub-17 / Venezuela vs Rumanía 6:30AM",
+        "logo": "https://flagcdn.com/w320/ve.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=dsports",
+        "liga": "Copa Mundial Sub-17",
+        "deporte": "Football",
+        "hora_cdmx": "6:30AM",
+        "server": "DSports",
+        "home": "Venezuela",
+        "away": "Rumanía"
+      },
+      {
+        "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - TUDN MX",
+        "logo": "https://flagcdn.com/w320/mx.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=tudnmx",
+        "liga": "Copa Mundial Sub-17",
+        "deporte": "Football",
+        "hora_cdmx": "7:30AM",
+        "server": "TUDN MX",
+        "home": "México",
+        "away": "Camerún"
+      },
+      {
+        "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - Canal 9 MX",
+        "logo": "https://flagcdn.com/w320/mx.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=canal9mx",
+        "liga": "Copa Mundial Sub-17",
+        "deporte": "Football",
+        "hora_cdmx": "7:30AM",
+        "server": "Canal 9 MX",
+        "home": "México",
+        "away": "Camerún"
+      },
+      {
+        "nombre": "Copa Mundial Sub-17 / República Dominicana vs Chile 8:30AM",
+        "logo": "https://flagcdn.com/w320/do.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus",
+        "liga": "Copa Mundial Sub-17",
+        "deporte": "Football",
+        "hora_cdmx": "8:30AM",
+        "server": "DSports Plus",
+        "home": "República Dominicana",
+        "away": "Chile"
+      },
+      {
+        "nombre": "Copa Mundial Sub-17 / Brasil vs Tanzania 9:00AM",
+        "logo": "https://flagcdn.com/w320/br.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=sporttvbr2",
+        "liga": "Copa Mundial Sub-17",
+        "deporte": "Football",
+        "hora_cdmx": "9:00AM",
+        "server": "Sportv 2 BR",
+        "home": "Brasil",
+        "away": "Tanzania"
+      },
+      {
+        "nombre": "Copa Mundial Sub-17 / Honduras vs Colombia 9:30AM",
+        "logo": "https://flagcdn.com/w320/hn.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=dsports",
+        "liga": "Copa Mundial Sub-17",
+        "deporte": "Football",
+        "hora_cdmx": "9:30AM",
+        "server": "DSports",
+        "home": "Honduras",
+        "away": "Colombia"
+      }
+    ],
     "AFC Champions League Elite": [
       {
         "nombre": "AFC Champions League Elite / Shabab Al Ahli vs Al Qadisiya 10:00AM",
@@ -798,52 +951,17 @@
         "away": "Al Sadd"
       }
     ],
-    "Brasileirão": [
+    "Copa de Rusia": [
       {
-        "nombre": "Brasileirão / Santos vs Grêmio 6:00PM - Sportv 1 BR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=sporttvbr1",
-        "liga": "Brasileirão",
+        "nombre": "Copa de Rusia / Zenit St. Petersburg vs Krylia Sovetov 10:30AM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2533.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus",
+        "liga": "Copa de Rusia",
         "deporte": "Football",
-        "hora_cdmx": "6:00PM",
-        "server": "Sportv 1 BR",
-        "home": "Santos",
-        "away": "Grêmio"
-      },
-      {
-        "nombre": "Brasileirão / Santos vs Grêmio 6:00PM - Premiere 3",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=premiere3",
-        "liga": "Brasileirão",
-        "deporte": "Football",
-        "hora_cdmx": "6:00PM",
-        "server": "Premiere 3",
-        "home": "Santos",
-        "away": "Grêmio"
-      },
-      {
-        "nombre": "Brasileirão / Chapecoense vs Palmeiras 3:00PM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=premiere1",
-        "liga": "Brasileirão",
-        "deporte": "Football",
-        "hora_cdmx": "3:00PM",
-        "server": "Premiere 1",
-        "home": "Chapecoense",
-        "away": "Palmeiras"
-      }
-    ],
-    "Béisbol Colombiano": [
-      {
-        "nombre": "Béisbol Colombiano / Toros vs Caimanes 6:00PM",
-        "logo": "https://static.flashscore.com/res/image/data/0048s7il-rF7UuL4F.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=espn5",
-        "liga": "Béisbol Colombiano",
-        "deporte": "Baseball",
-        "hora_cdmx": "6:00PM",
-        "server": "ESPN 5",
-        "home": "Toros",
-        "away": "Caimanes"
+        "hora_cdmx": "10:30AM",
+        "server": "DSports Plus",
+        "home": "Zenit St. Petersburg",
+        "away": "Krylia Sovetov"
       }
     ],
     "Champions League": [
@@ -1158,87 +1276,6 @@
         "away": "Derby County"
       }
     ],
-    "Copa Mundial Sub-17": [
-      {
-        "nombre": "Copa Mundial Sub-17 / Venezuela vs Rumanía 6:30AM",
-        "logo": "https://flagcdn.com/w320/ve.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=dsports",
-        "liga": "Copa Mundial Sub-17",
-        "deporte": "Football",
-        "hora_cdmx": "6:30AM",
-        "server": "DSports",
-        "home": "Venezuela",
-        "away": "Rumanía"
-      },
-      {
-        "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - TUDN MX",
-        "logo": "https://flagcdn.com/w320/mx.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=tudnmx",
-        "liga": "Copa Mundial Sub-17",
-        "deporte": "Football",
-        "hora_cdmx": "7:30AM",
-        "server": "TUDN MX",
-        "home": "México",
-        "away": "Camerún"
-      },
-      {
-        "nombre": "Copa Mundial Sub-17 / México vs Camerún 7:30AM - Canal 9 MX",
-        "logo": "https://flagcdn.com/w320/mx.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=canal9mx",
-        "liga": "Copa Mundial Sub-17",
-        "deporte": "Football",
-        "hora_cdmx": "7:30AM",
-        "server": "Canal 9 MX",
-        "home": "México",
-        "away": "Camerún"
-      },
-      {
-        "nombre": "Copa Mundial Sub-17 / República Dominicana vs Chile 8:30AM",
-        "logo": "https://flagcdn.com/w320/do.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus",
-        "liga": "Copa Mundial Sub-17",
-        "deporte": "Football",
-        "hora_cdmx": "8:30AM",
-        "server": "DSports Plus",
-        "home": "República Dominicana",
-        "away": "Chile"
-      },
-      {
-        "nombre": "Copa Mundial Sub-17 / Brasil vs Tanzania 9:00AM",
-        "logo": "https://flagcdn.com/w320/br.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=sporttvbr2",
-        "liga": "Copa Mundial Sub-17",
-        "deporte": "Football",
-        "hora_cdmx": "9:00AM",
-        "server": "Sportv 2 BR",
-        "home": "Brasil",
-        "away": "Tanzania"
-      },
-      {
-        "nombre": "Copa Mundial Sub-17 / Honduras vs Colombia 9:30AM",
-        "logo": "https://flagcdn.com/w320/hn.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=dsports",
-        "liga": "Copa Mundial Sub-17",
-        "deporte": "Football",
-        "hora_cdmx": "9:30AM",
-        "server": "DSports",
-        "home": "Honduras",
-        "away": "Colombia"
-      }
-    ],
-    "Copa de Rusia": [
-      {
-        "nombre": "Copa de Rusia / Zenit St. Petersburg vs Krylia Sovetov 10:30AM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2533.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=dsportsplus",
-        "liga": "Copa de Rusia",
-        "deporte": "Football",
-        "hora_cdmx": "10:30AM",
-        "server": "DSports Plus",
-        "home": "Zenit St. Petersburg",
-        "away": "Krylia Sovetov"
-      }
-    ],
     "Liga Colombia": [
       {
         "nombre": "Liga Colombia / Millonarios vs Atlético Bucaramanga 5:20PM",
@@ -1276,39 +1313,39 @@
         "away": "Independiente del Valle"
       }
     ],
-    "MLS": [
+    "Brasileirão": [
       {
-        "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Apple TV",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=appletv1",
-        "liga": "MLS",
+        "nombre": "Brasileirão / Santos vs Grêmio 6:00PM - Sportv 1 BR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=sporttvbr1",
+        "liga": "Brasileirão",
         "deporte": "Football",
-        "hora_cdmx": "7:00PM",
-        "server": "Apple TV",
-        "home": "St. Louis City",
-        "away": "Los Angeles FC"
+        "hora_cdmx": "6:00PM",
+        "server": "Sportv 1 BR",
+        "home": "Santos",
+        "away": "Grêmio"
       },
       {
-        "nombre": "MLS / St. Louis City vs Los Angeles FC 7:00PM - Fox Deportes USA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=fox_deportes_usa",
-        "liga": "MLS",
+        "nombre": "Brasileirão / Santos vs Grêmio 6:00PM - Premiere 3",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=premiere3",
+        "liga": "Brasileirão",
         "deporte": "Football",
-        "hora_cdmx": "7:00PM",
-        "server": "Fox Deportes USA",
-        "home": "St. Louis City",
-        "away": "Los Angeles FC"
+        "hora_cdmx": "6:00PM",
+        "server": "Premiere 3",
+        "home": "Santos",
+        "away": "Grêmio"
       },
       {
-        "nombre": "MLS / San Jose Earthquakes vs Houston Dynamo 9:00PM",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=appletv1",
-        "liga": "MLS",
+        "nombre": "Brasileirão / Chapecoense vs Palmeiras 3:00PM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+        "url": "https://streamxhd.sbs/live1.php?stream=premiere1",
+        "liga": "Brasileirão",
         "deporte": "Football",
-        "hora_cdmx": "9:00PM",
-        "server": "Apple TV",
-        "home": "San Jose Earthquakes",
-        "away": "Houston Dynamo"
+        "hora_cdmx": "3:00PM",
+        "server": "Premiere 1",
+        "home": "Chapecoense",
+        "away": "Palmeiras"
       }
     ],
     "NBA": [
@@ -1522,19 +1559,6 @@
         "away": "Dallas Mavericks"
       }
     ],
-    "NFL": [
-      {
-        "nombre": "NFL / Washington Commanders vs Cincinnati Bengals 7:00PM",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=espn2",
-        "liga": "NFL",
-        "deporte": "American Football",
-        "hora_cdmx": "7:00PM",
-        "server": "ESPN 2",
-        "home": "Washington Commanders",
-        "away": "Cincinnati Bengals"
-      }
-    ],
     "NHL": [
       {
         "nombre": "NHL / Edmonton Oilers vs Vegas Golden Knights 7:00PM",
@@ -1546,30 +1570,6 @@
         "server": "ESPN 3",
         "home": "Edmonton Oilers",
         "away": "Vegas Golden Knights"
-      }
-    ],
-    "Primera B": [
-      {
-        "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=winsports",
-        "liga": "Primera B",
-        "deporte": "Football",
-        "hora_cdmx": "6:30PM",
-        "server": "Win Sports",
-        "home": "Boca Juniors de Cali",
-        "away": "Deportes Quindío"
-      },
-      {
-        "nombre": "Primera B / Boca Juniors de Cali vs Deportes Quindío 6:30PM - Win Sports +",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17372.png",
-        "url": "https://streamxhd.sbs/live1.php?stream=winplus",
-        "liga": "Primera B",
-        "deporte": "Football",
-        "hora_cdmx": "6:30PM",
-        "server": "Win Sports +",
-        "home": "Boca Juniors de Cali",
-        "away": "Deportes Quindío"
       }
     ]
   }
