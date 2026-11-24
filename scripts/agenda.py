@@ -30,12 +30,12 @@ def format_time(dt):
 def clean_name(name):
     return name.strip() if name else ""
 
-def get_logo(event, league):
-    for key in ["homeLogo", "awayLogo"]:
+def get_logo(event):
+    for key in ["logo", "homeLogo", "awayLogo"]:
         logo = event.get(key, "")
         if logo and logo.startswith("http"):
             return logo
-    return league.get("logo", "") or ""
+    return ""
 
 def main():
     print("Descargando eventos...")
@@ -62,7 +62,7 @@ def main():
                 title = f"{home} vs {away}" if away else event.get("title", "Evento")
                 time_str = format_time(dt)
                 
-                logo = get_logo(event, league)
+                logo = get_logo(event)
                 homelogo = event.get("homeLogo", "") or ""
                 awaylogo = event.get("awayLogo", "") or ""
                 
@@ -106,7 +106,7 @@ def main():
         "streams": streams
     }
 
-    with open("agenda.json", "w", encoding="utf-8") as f:
+    with open("streams_simple.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\nListo! {len(streams)} streams de hoy.")
