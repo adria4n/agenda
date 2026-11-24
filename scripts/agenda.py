@@ -81,6 +81,9 @@ def main():
                 time_str = format_time(dt)
                 
                 logo = event.get("logo", "") or ""
+                if not logo.startswith("http"):
+                    logo = ""
+                
                 homelogo = event.get("homeLogo", "") or ""
                 awaylogo = event.get("awayLogo", "") or ""
                 
@@ -103,16 +106,12 @@ def main():
                     
                     item = {
                         "nombre": nombre,
+                        "logo": logo,
+                        "homelogo": homelogo if homelogo.startswith("http") else "",
+                        "awaylogo": awaylogo if awaylogo.startswith("http") else "",
                         "url": url,
                         "_dt": dt
                     }
-                    
-                    if logo and logo.startswith("http"):
-                        item["logo"] = logo
-                    if homelogo and homelogo.startswith("http"):
-                        item["homelogo"] = homelogo
-                    if awaylogo and awaylogo.startswith("http"):
-                        item["awaylogo"] = awaylogo
                     
                     streams.append(item)
 
