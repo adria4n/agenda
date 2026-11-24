@@ -77,7 +77,7 @@ def main():
                 if not dt or dt.date() != hoy:
                     continue
 
-                home = clean_name(event.get("homeTeam") or event.get("title", "").split(" vs ")[0])
+                home = clean_name(event.get("homeTeam") or event.get("title", "").split(" vs. ")[0])
                 away = clean_name(event.get("awayTeam") or "")
                 title = f"{home} vs {away}" if away else event.get("title", "Evento")
                 time_str = format_time(dt)
@@ -86,23 +86,23 @@ def main():
                 homelogo = event.get("homeLogo", "") or ""
                 awaylogo = event.get("awayLogo", "") or ""
                 
-                servers = [s for s in event.get("servers", []) if s.get("active", True) and s.get("url")]
+                servers = [s for s in event.get("servers", []) if s.get("active", True)]
                 
                 if not servers:
                     continue
                 
-                base_nombre = f"{league_name} / {title}"
-                if time_str:
-                    base_nombre += f" {time_str}"
-                
-                for server in servers:
-                    server_name = server.get("name", "").strip()
+                for i, server in enumerate(servers):
+                    server_name = server.get("name", f"Server {i+1}").strip()
                     url = server.get("url", "")
+                    if not url:
+                        continue
                     
-                    if len(servers) > 1 and server_name:
-                        nombre = f"{base_nombre} - {server_name}"
-                    else:
-                        nombre = base_nombre
+                    base_nombre = f"{league_name} / {title}"
+                    if time_str:
+                        base_nombre += f" {time_str}"
+                    
+                    # Siempre agrega el nombre del server
+                    nombre = f"{base_nombre} - {server_name}"
                     
                     streams.append({
                         "nombre": nombre,
@@ -131,7 +131,7 @@ def main():
     print("Archivo: agenda.json")
 
     print("\n--- Preview ---")
-    for s in streams[:15]:
+    for s in streams[:20]:
         print(f"  {s['nombre']}")
 
 if __name__ == "__main__":
