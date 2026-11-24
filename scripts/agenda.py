@@ -77,9 +77,14 @@ def main():
                 if not dt or dt.date() != hoy:
                     continue
 
-                home = clean_name(event.get("homeTeam") or event.get("title", "").split(" vs. ")[0])
-                away = clean_name(event.get("awayTeam") or "")
-                title = f"{home} vs {away}" if away else event.get("title", "Evento")
+                home = clean_name(event.get("homeTeam"))
+                away = clean_name(event.get("awayTeam"))
+                
+                if home and away:
+                    title = f"{home} vs {away}"
+                else:
+                    title = clean_name(event.get("title", "Evento"))
+
                 time_str = format_time(dt)
                 
                 logo = get_logo(event)
@@ -101,7 +106,6 @@ def main():
                     if time_str:
                         base_nombre += f" {time_str}"
                     
-                    # Siempre agrega el nombre del server
                     nombre = f"{base_nombre} - {server_name}"
                     
                     streams.append({
