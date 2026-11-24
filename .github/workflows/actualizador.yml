@@ -1,0 +1,41 @@
+name: Actualizar Scripts
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+
+      - name: Ejecutar todos los .py de /scripts
+        run: |
+          for script in scripts/*.py; do
+            if [ -f "$script" ]; then
+              echo "Ejecutando $script"
+              python "$script"
+            fi
+          done
+
+      - name: Commit cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Actualizar scripts $(date +'%Y-%m-%d %H:%M')"
+          git push
