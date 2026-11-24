@@ -92,18 +92,24 @@ def main():
                         "hora_cdmx": time_str,
                         "server": server_name,
                         "home": home,
-                        "away": away
+                        "away": away,
+                        "dt": dt
                     }
                     streams.append(stream)
                     by_league[league_name].append(stream)
 
-    streams.sort(key=lambda x: (x["liga"], x.get("hora_cdmx", "")))
+    # Ordenar solo por hora (los más tempranos primero)
+    streams.sort(key=lambda x: x["dt"] if x["dt"] else datetime.max.replace(tzinfo=CDMX))
+
+    # Limpiar el campo dt antes de guardar
+    for s in streams:
+        s.pop("dt", None)
 
     output = {
         "total": len(streams),
         "generado": datetime.now(CDMX).strftime("%Y-%m-%d %H:%M CDMX"),
         "streams": streams,
-        "por_liga": {liga: items for liga, items in sorted(by_league.items())}
+        "por_liga": {liga: items for liga, items in by_league.items()}
     }
 
     with open("streams_organizados.json", "w", encoding="utf-8") as f:
