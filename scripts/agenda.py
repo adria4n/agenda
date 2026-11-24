@@ -86,22 +86,20 @@ def main():
                 homelogo = event.get("homeLogo", "") or ""
                 awaylogo = event.get("awayLogo", "") or ""
                 
-                servers = [s for s in event.get("servers", []) if s.get("active", True)]
+                servers = [s for s in event.get("servers", []) if s.get("active", True) and s.get("url")]
                 
                 if not servers:
                     continue
                 
-                for i, server in enumerate(servers):
-                    server_name = server.get("name", f"Server {i+1}").strip()
+                base_nombre = f"{league_name} / {title}"
+                if time_str:
+                    base_nombre += f" {time_str}"
+                
+                for server in servers:
+                    server_name = server.get("name", "").strip()
                     url = server.get("url", "")
-                    if not url:
-                        continue
                     
-                    base_nombre = f"{league_name} / {title}"
-                    if time_str:
-                        base_nombre += f" {time_str}"
-                    
-                    if len(servers) > 1:
+                    if len(servers) > 1 and server_name:
                         nombre = f"{base_nombre} - {server_name}"
                     else:
                         nombre = base_nombre
