@@ -106,7 +106,7 @@ def main():
         "streams": streams
     }
 
-    with open("streams_simple.json", "w", encoding="utf-8") as f:
+    with open("agenda.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\nListo! {len(streams)} streams de hoy.")
