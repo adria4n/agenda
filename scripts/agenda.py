@@ -83,15 +83,26 @@ def main():
                     else:
                         nombre = base_nombre
                     
-                    stream = {
+                    streams.append({
                         "nombre": nombre,
                         "logo": logo,
-                        "url": url
-                    }
-                    streams.append(stream)
+                        "url": url,
+                        "_dt": dt
+                    })
+
+    streams.sort(key=lambda x: x["_dt"])
+
+    for s in streams:
+        s.pop("_dt", None)
+
+    output = {
+        "total": len(streams),
+        "generado": datetime.now(CDMX).strftime("%Y-%m-%d %H:%M CDMX"),
+        "streams": streams
+    }
 
     with open("streams_simple.json", "w", encoding="utf-8") as f:
-        json.dump(streams, f, ensure_ascii=False, indent=2)
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\nListo! {len(streams)} streams de hoy.")
     print("Archivo: streams_simple.json")
