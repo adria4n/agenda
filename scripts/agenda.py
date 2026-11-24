@@ -56,13 +56,6 @@ def format_time(dt):
 def clean_name(name):
     return name.strip() if name else ""
 
-def get_logo(event):
-    for key in ["logo", "homeLogo", "awayLogo"]:
-        logo = event.get(key, "")
-        if logo and logo.startswith("http"):
-            return logo
-    return ""
-
 def main():
     data = obtener_json()
 
@@ -87,7 +80,7 @@ def main():
 
                 time_str = format_time(dt)
                 
-                logo = get_logo(event)
+                logo = event.get("logo", "") or ""
                 homelogo = event.get("homeLogo", "") or ""
                 awaylogo = event.get("awayLogo", "") or ""
                 
@@ -114,7 +107,7 @@ def main():
                         "_dt": dt
                     }
                     
-                    if logo:
+                    if logo and logo.startswith("http"):
                         item["logo"] = logo
                     if homelogo and homelogo.startswith("http"):
                         item["homelogo"] = homelogo
