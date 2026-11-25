@@ -1,6 +1,6 @@
 {
-  "total": 64,
-  "generado": "2026-11-25 07:00 CDMX",
+  "total": 63,
+  "generado": "2026-11-25 10:21 CDMX",
   "streams": [
     {
       "nombre": "Copa Mundial Sub-17 / Ecuador vs. Corea del Sur 6:30AM - DSports 2",
@@ -64,13 +64,6 @@
       "homelogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
       "awaylogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
       "url": "https://stream04.lat/libre/live1.php?stream=mligacampeones"
-    },
-    {
-      "nombre": "UEFA Champions League / Sabah vs. Barcelona 11:45AM - Espn 2 AR",
-      "logo": "",
-      "homelogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
-      "awaylogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "url": "https://stream04.lat/libre/live1.php?stream=espn2ar"
     },
     {
       "nombre": "UEFA Champions League / Sabah vs. Barcelona 11:45AM - Disney +",
